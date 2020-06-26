@@ -1,18 +1,20 @@
 <template>
-    <div id="ima-examples-chart" class="text-white">
-        <div class="bg-black py-3">
-            <h3>幫寧夏夜市省電，今時做到了！</h3>
-            <b-container>
-                <apexchart
-                        style="margin-left: 30%;"
-                        class="m-auto"
-                        :options="chartOptions"
-                        :series="series"
-                />
-            </b-container>
-        </div>
+  <div
+    id="ima-examples-chart"
+    class="text-white"
+  >
+    <div class="bg-black py-3">
+      <h3>幫寧夏夜市省電，今時做到了！</h3>
+      <b-container>
+        <apex-chart
+          style="margin-left: 30%;"
+          class="m-auto"
+          :options="chartOptions"
+          :series="series"
+        />
+      </b-container>
     </div>
-
+  </div>
 </template>
 
 <script>

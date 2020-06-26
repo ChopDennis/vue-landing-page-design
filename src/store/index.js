@@ -29,14 +29,14 @@ export const store = new Vuex.Store({
             },
             InfoAlert(state, getters) {
                 let showAlert = false
-                if (getters.CalculatorOutput < 4 && getters.CalculatorOutput >= 3.5) {
+                if (getters.CalculatorOutput < 4 && getters.CalculatorOutput >= 3) {
                     showAlert = true
                 }
                 return showAlert
             },
             SuccessAlert(state, getters) {
                 let showAlert = false
-                if (getters.CalculatorOutput < 3.5 && getters.CalculatorOutput >= 3) {
+                if (getters.CalculatorOutput < 3 && getters.CalculatorOutput > 0) {
                     showAlert = true
                 }
                 return showAlert

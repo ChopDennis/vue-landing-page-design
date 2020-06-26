@@ -2,9 +2,9 @@
   <div>
     <b-carousel
       class="d-none d-lg-block d-xl-block"
+      style="margin-top:60px"
     >
       <b-carousel-slide
-
         caption-html="節能省電<br>&emsp;&ensp;就從今時開始"
         img-src="../../assets/img/ima-carousel-banner.jpg"
         text-html="&emsp;今時服務，電費節省 20% 的秘訣大公開！"

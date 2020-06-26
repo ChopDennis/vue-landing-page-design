@@ -4,10 +4,12 @@ import TheHeader from "../components/TheHeader";
 import PageHome from '../view/PageHome.vue'
 import PageService from "../view/PageService";
 import PageExamples from "../view/PageExamples";
+import PageContactUs from "../view/PageContactUs";
+import PageEms from "../view/PageEms";
 Vue.use(VueRouter)
 
 const routes = [
-    {
+  {
         path: '/',
         name: 'PageHome',
         components: {
@@ -28,6 +30,20 @@ const routes = [
         name: 'PageExamples',
         components: {
             default: PageExamples,
+            nav: TheHeader
+        }
+    },{
+        path: '/contact-us',
+        name: 'PageContactUS',
+        components: {
+            default: PageContactUs,
+            nav: TheHeader
+        }
+    }, {
+        path: '/ems',
+        name: 'PageEms',
+        components: {
+            default: PageEms,
             nav: TheHeader
         }
     }

@@ -1,10 +1,9 @@
 <template>
-    <div>
-        <ExamplesBanner/>
-        <ExamplesDescription/>
-        <ExamplesChart/>
-    </div>
-
+  <div>
+    <ExamplesBanner />
+    <ExamplesDescription />
+    <ExamplesChart />
+  </div>
 </template>
 <script>
     import ExamplesBanner from "../components/examples/ExamplesBanner"

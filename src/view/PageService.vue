@@ -6,13 +6,13 @@
     <b-container>
       <b-row class="m-0">
         <b-col
-          lg="7"
-          style="height: 200px"
+          lg="8"
+          offset-lg="2"
         >
           <ServiceDescription />
         </b-col>
         <b-col lg="5">
-          <ServiceCalculator />
+          <!--          <ServiceCalculator />-->
         </b-col>
       </b-row>
     </b-container>
@@ -20,14 +20,14 @@
 </template>
 
 <script>
-    import ServiceCalculator from "../components/service/ServiceCalculator"
+    // import ServiceCalculator from "../components/service/ServiceCalculator"
     import ServiceDescription from "../components/service/ServiceDescription"
 
     export default {
         name: "PageService",
         components: {
             ServiceDescription,
-            ServiceCalculator
+            // ServiceCalculator
         },
         data() {
             return {}
@@ -46,7 +46,7 @@
 
     @media screen and (min-width: 992px){
         #ima-page-service{
-            height: 100vh;
+            /*height: 100vh;*/
         }
     }
     @media screen and (max-width: 991px) {
